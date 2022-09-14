@@ -224,3 +224,28 @@ input[type=checkbox] {
         grid-template-columns: 1fr;
     }
 }
+
+/* feature products */
+
+.feature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    gap: 80px;
+}
+
+.feature-right{
+    text-align: justify;
+}
+
+
+/* feature responsive */
+@media(max-width:768px) {
+    .feature {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* footer */
